@@ -1,0 +1,47 @@
+manifestVersion: 1
+id: bitcoin-purity
+storage:
+  dataRoot: data
+category: bitcoin
+name: Bitcoin Purity
+version: "0.1.0"
+tagline: Run your own Bitcoin Purity node
+description: >-
+  Run a Bitcoin Purity (BTC1) v1.1.2 node with a web dashboard.
+  Monitor synchronization, manage node settings and pruning, and view
+  connection details for RPC, Tor and I2P.
+
+
+  Bitcoin Purity uses its own blockchain and separate application data.
+
+
+  To accept incoming peer connections, forward TCP port 10333 on your router
+  to TCP port 10333 on your Umbrel device.
+releaseNotes: ""
+developer: Konstantin35
+website: https://bitcoinpurity.org
+dependencies: []
+repo: https://github.com/BitcoinPurity/bitcoinpurity-umbrel
+support: https://github.com/BitcoinPurity/bitcoinpurity-umbrel/issues
+port: 10330
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+backupIgnore:
+  - data/bitcoin/blocks
+  - data/bitcoin/chainstate
+  - data/bitcoin/indexes
+  - data/bitcoin/testnet3/blocks
+  - data/bitcoin/testnet3/chainstate
+  - data/bitcoin/testnet3/indexes
+  - data/bitcoin/testnet4/blocks
+  - data/bitcoin/testnet4/chainstate
+  - data/bitcoin/testnet4/indexes
+  - data/bitcoin/signet/blocks
+  - data/bitcoin/signet/chainstate
+  - data/bitcoin/signet/indexes
+  - data/bitcoin/regtest/blocks
+  - data/bitcoin/regtest/chainstate
+  - data/bitcoin/regtest/indexes
+submitter: Konstantin35
